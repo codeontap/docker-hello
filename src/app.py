@@ -14,10 +14,10 @@ app.config.update(
 
 @app.route('/')
 def hello_world():
-    environment = os.environ.get('ENVIRONMENT', 'nowhere')
+    location = os.environ.get('LOCATION', 'nowhere')
 
     response = {
-        'Greeting' : 'Hi!',
-        'Location' : environment,
+        'Greeting' : 'Hello!',
+        'Location' : location,
     }
     return make_response(jsonify(response), 200)
