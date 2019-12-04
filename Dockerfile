@@ -1,7 +1,7 @@
 FROM python:3.6-alpine
 
 EXPOSE 8000
-ENV ENVIRONMENT="docker"
+ENV ENVIRONMENT="local"
 
 RUN apk add --no-cache \
         build-base
