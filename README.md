@@ -1,11 +1,16 @@
-# Gen3 Hello
+# Docs Support
 
-A hello world app used in the codeontap [getting started guide](https://codeontap.readthedocs.io/en/stable/getting-started/)
+This repo stores a collection of resources that we use to demonstrate concepts and hamlet features on the [hamlet docs](hamlet.io) site
 
-## Ports
+## Contributing
 
-8000 - HTTP endpoint
+1. Create a top level folder for each new component that you want to add
+2. Provide a README.md file for each component outlining what it does
+3. Update this README with a link to the component and a list of where the component is used in the docs site
 
-## Environment Variables
+## Components
 
-ENVIRONMENT - the environment the container is in - This is where the hello will be from
+| Name              | Folder            | Usage                                  |
+|-------------------|-------------------|----------------------------------------|
+| hello_world_api   | hello_world_api   | - docs/hello/hamlet                    |
+| glue_cfn          | glue_cfn          | - blog/2021-01-13-template-deploys     |
