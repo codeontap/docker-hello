@@ -6,7 +6,8 @@ Parameters:
     Description: 'S3 bucket that holds data for providers'
   DataBucketRootPrefix:
     Type: String
-    Default: 'the root prefix in the data bucket to look for data'
+    Description: 'the root prefix in the data bucket to look for data'
+    Default: 'metering/'
   GlueDatabaseName:
     Type: String
     Description: 'Name of Glue Database'
