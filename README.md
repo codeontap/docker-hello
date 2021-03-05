@@ -1,6 +1,6 @@
 # Docs Support
 
-This repo stores a collection of resources that we use to demonstrate concepts and hamlet features on the [hamlet docs](hamlet.io) site
+This repo stores a collection of resources that we use to demonstrate concepts and Hamlet Deploy features on the [Hamlet Deploy docs site](https://docs.hamlet.io)
 
 ## Contributing
 
@@ -10,7 +10,7 @@ This repo stores a collection of resources that we use to demonstrate concepts a
 
 ## Components
 
-| Name              | Folder            | Usage                                  |
-|-------------------|-------------------|----------------------------------------|
-| hello_world_api   | hello_world_api   | - docs/hello/hamlet                    |
-| glue_cfn          | glue_cfn          | - blog/2021-01-13-template-deploys     |
+| Name              | Folder            | Usage                                                                                        |
+|-------------------|-------------------|----------------------------------------------------------------------------------------------|
+| hello_world_api   | hello_world_api   | - [docs/hello/hamlet](https://docs.hamlet.io/docs/hello/hamlet)                              |
+| glue_cfn          | glue_cfn          | - [blog/2021-01-13-template-deploys](https://docs.hamlet.io/blog/2021/01/13/template-deploys)|
