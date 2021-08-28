@@ -2,9 +2,6 @@ FROM python:3.9-alpine
 
 EXPOSE 8000
 
-RUN apk add --no-cache \
-        build-base
-
 WORKDIR /app/
 COPY src/ /app/
 

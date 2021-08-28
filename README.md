@@ -12,5 +12,6 @@ This repo stores a collection of resources that we use to demonstrate concepts a
 
 | Name              | Folder            | Usage                                                                                        |
 |-------------------|-------------------|----------------------------------------------------------------------------------------------|
-| hello_world_api   | hello_world_api   | - [docs/hello/hamlet](https://docs.hamlet.io/docs/hello/hamlet)                              |
+| hello_world_api   | hello_world_api   | |
+| hello_world_ui    | hello_world_ui    | |
 | glue_cfn          | glue_cfn          | - [blog/2021-01-13-template-deploys](https://docs.hamlet.io/blog/2021/01/13/template-deploys)|
