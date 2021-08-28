@@ -8,11 +8,14 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
 
-      - working-directory: hello_world_ui
+      - working-directory: hello_world_ui/
         run: |
           yarn install
           yarn run test --ci

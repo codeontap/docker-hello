@@ -8,12 +8,15 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
       - name: Setup python
         uses: actions/setup-python@v2
         with:
           python-version: '3.9'
 
-      - working-directory:
+      - working-directory: glue_cfn
         run: |
           pip install cfn-lint
-          cfn-lint ./
+          cfn-lint ./*.yml
