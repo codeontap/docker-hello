@@ -1,3 +1,5 @@
+name: hello world api
+
 on:
   push:
     branches:
@@ -29,6 +31,8 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: ghcr.io/${{github.repository}}/hello_world
+          labels: |
+            org.opencontainers.image.documentation=https://raw.githubusercontent.com/${{github.repository}}/master/hello_world_api/README.md
           flavor: |
             latest=auto
           tags: |
