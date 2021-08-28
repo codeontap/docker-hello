@@ -10,4 +10,5 @@ It is packaged as a docker image and used to demonstrate a simple component whic
 
 ## Environment Variables
 
-ENVIRONMENT - the environment the container is in - This is where the hello will be from
+- **GREETING** - The greeting you want to say
+- **LOCATION** - Where you are sending your greeting from
