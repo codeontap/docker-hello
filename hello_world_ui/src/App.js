@@ -18,7 +18,7 @@ class NameCard extends React.Component {
     var img = ''
     var text = ''
 
-    switch(this.props.location) {
+    switch(this.props.location.toLowerCase()) {
       case "home":
         text = "I'm at home";
         img = LocationHome;
