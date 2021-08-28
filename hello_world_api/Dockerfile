@@ -1,7 +1,6 @@
-FROM python:3.6-alpine
+FROM python:3.9-alpine
 
 EXPOSE 8000
-ENV ENVIRONMENT="local"
 
 RUN apk add --no-cache \
         build-base
